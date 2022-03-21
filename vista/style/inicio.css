@@ -1,0 +1,114 @@
+.bgcolor {background: rgb(92,111,136);
+background: linear-gradient(90deg, rgba(92,111,136,0.2) 0%, rgba(159,179,208,0.2) 50%, rgba(92,111,136,0.2) 100%);
+border-radius: 1em;
+padding:1em;
+padding-top: 3em;
+padding-right: 4em;
+margin-left: 2em;
+margin-right: 2em;}
+
+.container {
+  padding-top: 2em;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr  1fr 1fr 1fr; 
+  gap: 2% 2%; 
+  grid-template-areas: 
+    "body body body body sidebar"
+    "body body body body sidebar"
+    "body body body body sidebar"
+    "footer footer footer footer footer"; 
+}
+
+.body    {grid-area: body;}
+
+.sidebar {grid-area: sidebar;
+          width:20em;
+          height: 100%;
+          background-color: #fcfcff;}
+          
+.footer   {grid-area: footer;
+			margin-top: 4em;
+           background-color: #333;
+           height: 35em;}
+
+.imageeducacion {height: 12em;
+                 width:100%;
+                 border-radius: 1em;
+                 box-shadow: 0 0 10px rgba(0, 0, 0, 1) ;
+                 margin-left: 1em;
+                 margin-right: 1em;}
+
+h4, dd {color:#262626;}
+
+h4 {text-align:center;}
+                 
+p {padding-left:2rem;
+   padding-right:2rem;
+   font-size: 15px;}
+   
+dd, p{text-align: justify;}
+
+h2 {text-align:center;
+    font-size: 1em;
+    padding-top: 1em;}
+    
+h2:before{
+    content:'';
+    animation: changingTxt 20s linear infinite;
+}
+
+@keyframes changingTxt {
+
+    0%   {content: '"Debemos emplear la razón antes que la fuerza"   -Simón Bolivar';}
+    20%  {content: '"Los grandes conocimientos engendran las grandes dudas"   -Aristóteles';} 
+    40%  {content: '"El arte de vencer se aprende de las derrotas"  -Simón Bolivar';}
+    60%  {content: '"La verdadera sabiduría esta en reconocer la propia ignorancia"   -Aristóteles';} 
+    80%  {content: '"El tamaño de tu esfuerzo será el tamaño de tu éxito"   -Francisco de Miranda';} 
+    100% {content: '"Un ser sin estudios es un ser incompleto"   -Simón Bolivar';}
+    }
+    
+.mision, .vision {background-color: #304562;
+                  padding:1em;
+                  padding-right:1em;
+                  width: 40%;
+                  right:35%;
+                  border-radius:12px;
+                  color: #fff;}
+
+.footer, .mision, .vision {color: #f9f9f9;
+                           text-align: center;}
+
+.mision {float:left;
+         margin-left: 3em;}
+
+.vision {float: right;
+         margin-right: 3em;}
+   
+.eponimo, .manual {width: 10em;
+                   height: 14em;
+                   padding: 2em;
+                   border-radius: 3em;}
+
+.maps {float:left;
+       padding-left: 4em;
+       padding-top: 2em;}
+       
+.info {float:right;
+       padding-top:3em;
+       padding-right: 4em ;}
+
+iframe {height: 10em;
+        width: 20em;
+        padding: 2em;
+        border: none;}
+        
+h3 {text-align: center;
+    padding-left: 1em;}
+    
+i {float:right;
+   padding-right:2em;}
+    
+.redessociales {height: 2em;
+                width: 2em;
+                vertical-align: middle;}

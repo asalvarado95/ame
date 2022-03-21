@@ -1,0 +1,44 @@
+.tablaform {margin: 0 auto;
+            text-align: left;
+            background-color: #fcfcff;
+            border-radius: 20px;}
+            
+td {padding-left: 3em;
+    padding-right: 3em;
+    vertical-align: top;}
+
+.form, .table {width:95%;}
+
+.input, select{width:18em;
+    padding:15px;
+    padding-left:0.5rem;
+    padding-top: 1em;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:"Verdana",sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #304562;}   
+      
+.date{margin-top: -20px;}
+
+.finish {
+    padding:8px 10px;
+    margin:8px;
+    border:2px solid #304562;
+    background:0;
+    cursor:pointer;
+    transition:all .3s;
+    border-radius: 10px;}
+.finish:hover{background:#304562;color:#fff}
+
+.leftfinish {float: left;}
+
+.centerfinish {display:flex;
+               justify-content: center;}
+
+.rightfinish {float:right;}
+
+.short {width: 6em;}

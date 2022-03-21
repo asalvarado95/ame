@@ -1,0 +1,58 @@
+.move {position: relative;
+       top: -2em;
+       left: 2.8em;}	              
+
+table td:first-child {width: 2em} .short {width: 2em}
+table td:nth-child(2) {width: 8em} .medium { width: 6em; }
+table td:nth-child(3) {width: 12em} .large { width: 12em; }
+
+.down{padding-top:3em;}
+
+.finalcolor {color: #304562;
+             font-size: 1em;
+             padding-left: 2.5em;
+             padding-right: 2.5em;}
+
+table{
+  width:95%;
+  table-layout: fixed;}
+
+table, td, th { border: none;}
+
+table tbody tr:nth-child(odd) {background: transparent;}
+
+table tbody tr:nth-child(even) {background: #dedede;}
+
+th{
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+td{
+  padding: 0.5em;
+  text-align: center;
+  vertical-align:middle;
+  font-size: 0.8em;
+}
+
+.buscar {float: right;}
+
+.short8 {width: 8em;}
+
+.separation {margin-right: 4em;}
+               
+.label-input {margin-left: 1em}
+
+.editar, .eliminar {width: 2em;}
+.ver {width: 2.5em;}
+.editar, .eliminar, .ver {height: 1em;
+                          vertical-align: middle;
+                          padding-left: 0.5em;
+                          padding-right: 0.5em;}
+
+thead {background-color: #304562;
+       color: #ffffff;}
+
+tbody {color:  #5e5e5e;}

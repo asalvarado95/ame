@@ -1,0 +1,41 @@
+body {background-color: #fcfcff;}
+
+.inicioazul {width: 2em;
+             height: 2em;
+             float: right;
+             padding-right: 2em;
+             padding-top: 1.7em;
+             margin-top: -1em;}
+
+a:link, a:visited, a:active {text-decoration:none;}
+
+.distintivo {vertical-align: middle;
+             width: 2em;
+             height: 2em;}
+           
+.iconleft {vertical-align: middle;
+           float:left;
+           width: 2rem;
+           height: 2rem;}
+
+label, table, h2, h3, h4, i, p, dd, b, h6, label, .top, .form, .finish, .encabezado {font-family: "Verdana", sans-serif;}
+
+label {font-size:15px;}
+
+label, /*td, th,*/ select, h2, h6, i, .labelcolor, .finish, .input, .top, .encabezado {color: #5e5e5e;}  
+select, .labelcolor, .finish, .input {padding-top: 1em;} 
+
+h6, thead {font-size: 1.5em;}   
+     
+.encabezado {font-size: 1em;
+             text-align: center;
+             margin-top: 2em;
+             }
+             
+.top{font-size:2em;
+     text-align: left;
+     margin-left: 1em;}
+
+.infoseparation {line-height: 1.5em;
+                 font-size:1rem;
+                 margin-top: 1.7em;}
